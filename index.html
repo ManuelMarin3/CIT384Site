@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Direct path to styles.css in main folder -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_me.html">About Me</a></li>
+                <li><a href="assets/HTML/top5.html">My Top 5's</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Manny's List of Top 5's</h1>
+    </section>
+
+    <section id="about">
+        <h2><a href="about_me.html" style="text-decoration: none; color: inherit;">About Me</a></h2>
+        <p>Hi, my name is Manuel but I go by Manny, a CIT Student hoping to find a career in the large field of IT. If you want to know more about me personally, go to my about me page.</p>
+    </section>
+
+    <section id="My Top 5's">
+        <h2><a href="assets/HTML/top5.html" style="text-decoration: none; color: inherit;">My Top 5's</a></h2>
+        <p>I have listed out my Top 5's for many different things. If you are interested in any of them and why, you can first go to My Top 5's list and select that option for my explanations and reasoning.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Manuel Marin. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Direct path to script.js in main folder -->
+</body>
+</html>
