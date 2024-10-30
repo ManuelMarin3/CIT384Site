@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="styles.css"> <!-- Direct path to styles.css in main folder -->
+
+    <!-- Include latest EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Initialize EmailJS -->
+    <script>
+        emailjs.init("DL-cnHIDW2IBtgseU"); // Replace with your Public Key
+    </script>
 </head>
 <body>
     <header>
@@ -53,6 +61,7 @@
         <p>&copy; 2024 Manuel Marin. All rights reserved.</p>
     </footer>
 
+    <!-- Include custom JavaScript -->
     <script src="script.js"></script> <!-- Direct path to script.js in main folder -->
 </body>
 </html>
