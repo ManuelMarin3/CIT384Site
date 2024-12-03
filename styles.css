@@ -117,3 +117,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.show-image {
+    width: 50%; /* Reduces the size to half the container width */
+    max-width: 300px; /* Limits the size to a maximum of 300px */
+    height: auto; /* Maintains the aspect ratio */
+    margin: 20px auto; /* Centers the images with margin around them */
+    display: block; /* Ensures the images are centered in their container */
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
