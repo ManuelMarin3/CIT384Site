@@ -118,7 +118,7 @@ footer {
     width: 100%;
 }
 
-.show-image {
+.favorite-image {
     width: 50%; /* Reduces the size to half the container width */
     max-width: 300px; /* Limits the size to a maximum of 300px */
     height: auto; /* Maintains the aspect ratio */
