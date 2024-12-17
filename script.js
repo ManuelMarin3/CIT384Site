@@ -17,7 +17,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     })
     .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        alert('Thank you for your message, ' + name + '! We will get back to you soon.');
+        alert('Thank you for your message, ' + name + '! I will get back to you soon.');
         document.getElementById('contact-form').reset();
     }, (error) => {
         console.log('FAILED...', error);
